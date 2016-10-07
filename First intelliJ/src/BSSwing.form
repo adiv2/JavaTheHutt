@@ -1,0 +1,2954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BSSwing">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="2495" height="743"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="9f72c" binding="LeftPanel" layout-manager="GridLayoutManager" row-count="12" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-15576706"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="59e03">
+            <constraints>
+              <grid row="10" column="4" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="9245f">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="18286" class="javax.swing.JLabel" binding="fireLabel">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="9" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-3074538"/>
+              <text value="FIRE"/>
+            </properties>
+          </component>
+          <component id="b67c7" class="javax.swing.JLabel" binding="enemyHealthButton">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-4513024"/>
+              <text value="Enemy health is :"/>
+            </properties>
+          </component>
+          <component id="40766" class="javax.swing.JButton" binding="EButton">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2669770"/>
+              <foreground color="-1"/>
+              <icon value="javax/swing/plaf/metal/icons/ocean/close.gif"/>
+              <text value="EXIT"/>
+            </properties>
+          </component>
+          <component id="140ec" class="javax.swing.JLabel" binding="yourHealthButton">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <text value="Your  health is   :"/>
+            </properties>
+          </component>
+          <vspacer id="f0c13">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="60f73">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="a0c47">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="aab9f">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="fd7d1">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="6ab4" class="javax.swing.JLabel" binding="result">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-1573120"/>
+              <text value="YOU WIN !!!"/>
+            </properties>
+          </component>
+          <grid id="2bbef" binding="buttonPanel" layout-manager="GridLayoutManager" row-count="9" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="7" row-span="9" col-span="9" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15576706"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c984" class="javax.swing.JButton" binding="b0Button">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="c1809" class="javax.swing.JButton" binding="b1Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="7c79d" class="javax.swing.JButton" binding="b2Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="b9443" class="javax.swing.JButton" binding="b3Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="8c15a" class="javax.swing.JButton" binding="b4Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="52f85" class="javax.swing.JButton" binding="b5Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="285a4" class="javax.swing.JButton" binding="b6Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="a84c4" class="javax.swing.JButton" binding="b7Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="5a002" class="javax.swing.JButton" binding="b8Button" default-binding="true">
+                <constraints>
+                  <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="6439a" class="javax.swing.JButton" binding="c0Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="c13e7" class="javax.swing.JButton" binding="c1Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="7ea4e" class="javax.swing.JButton" binding="c2Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="efdd8" class="javax.swing.JButton" binding="c3Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="77135" class="javax.swing.JButton" binding="c4Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="83799" class="javax.swing.JButton" binding="c5Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="51aa0" class="javax.swing.JButton" binding="c6Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="5bc8f" class="javax.swing.JButton" binding="c7Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="bdc42" class="javax.swing.JButton" binding="c8Button" default-binding="true">
+                <constraints>
+                  <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C8"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="6603a" class="javax.swing.JButton" binding="d0Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="4464d" class="javax.swing.JButton" binding="d1Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="d3bae" class="javax.swing.JButton" binding="d2Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="a6513" class="javax.swing.JButton" binding="d3Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="45b08" class="javax.swing.JButton" binding="d4Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="e0289" class="javax.swing.JButton" binding="d5Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="4ecfe" class="javax.swing.JButton" binding="d6Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="bfca2" class="javax.swing.JButton" binding="d7Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="74903" class="javax.swing.JButton" binding="d8Button" default-binding="true">
+                <constraints>
+                  <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="192d8" class="javax.swing.JButton" binding="e0Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="67251" class="javax.swing.JButton" binding="e1Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="694b5" class="javax.swing.JButton" binding="e2Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="b4d45" class="javax.swing.JButton" binding="e3Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="dea1c" class="javax.swing.JButton" binding="e4Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="55798" class="javax.swing.JButton" binding="e5Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="930a9" class="javax.swing.JButton" binding="e6Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="d73c6" class="javax.swing.JButton" binding="e7Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="64759" class="javax.swing.JButton" binding="e8Button" default-binding="true">
+                <constraints>
+                  <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="238d0" class="javax.swing.JButton" binding="f0Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="d8ebb" class="javax.swing.JButton" binding="f1Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="a14b5" class="javax.swing.JButton" binding="f2Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="4afef" class="javax.swing.JButton" binding="f3Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="126ca" class="javax.swing.JButton" binding="f4Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="23efb" class="javax.swing.JButton" binding="f5Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="7727c" class="javax.swing.JButton" binding="f6Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="28f6b" class="javax.swing.JButton" binding="f7Button" default-binding="true">
+                <constraints>
+                  <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="30532" class="javax.swing.JButton" binding="f8Button">
+                <constraints>
+                  <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="70619" class="javax.swing.JButton" binding="g0Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G0"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="4e22" class="javax.swing.JButton" binding="g1Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G1"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="e0c35" class="javax.swing.JButton" binding="g2Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G2"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="676d" class="javax.swing.JButton" binding="g3Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G3"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="3b156" class="javax.swing.JButton" binding="g4Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G4"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="438e0" class="javax.swing.JButton" binding="g5Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G5"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="20be8" class="javax.swing.JButton" binding="g6Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G6"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="1679e" class="javax.swing.JButton" binding="g7Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G7"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="92faa" class="javax.swing.JButton" binding="g8Button" default-binding="true">
+                <constraints>
+                  <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G8"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="e7b23" class="javax.swing.JButton" binding="h0Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="b1c83" class="javax.swing.JButton" binding="h1Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="84b1c" class="javax.swing.JButton" binding="h2Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="546d" class="javax.swing.JButton" binding="h3Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="8a0d2" class="javax.swing.JButton" binding="h4Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="7ba39" class="javax.swing.JButton" binding="h5Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="b7e5c" class="javax.swing.JButton" binding="h6Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="417fd" class="javax.swing.JButton" binding="h7Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="879b4" class="javax.swing.JButton" binding="h8Button" default-binding="true">
+                <constraints>
+                  <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="59772" class="javax.swing.JButton" binding="i0Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="b0d9e" class="javax.swing.JButton" binding="i1Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="2341d" class="javax.swing.JButton" binding="i2Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="ef2bb" class="javax.swing.JButton" binding="i3Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="a311" class="javax.swing.JButton" binding="i4Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="c039a" class="javax.swing.JButton" binding="i5Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="27a2d" class="javax.swing.JButton" binding="i6Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="ba350" class="javax.swing.JButton" binding="i7Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="7ed27" class="javax.swing.JButton" binding="i8Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="384d3" class="javax.swing.JButton" binding="a0Button">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A0"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="653f3" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="40699" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="8026" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="facbe" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="4ccce" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="1d7a1" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="712b4" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="fbce8" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+          <component id="2ce31" class="javax.swing.JLabel" binding="result1">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-4513024"/>
+              <text value="YOU LOSE !!!"/>
+            </properties>
+          </component>
+          <hspacer id="569ac">
+            <constraints>
+              <grid row="5" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="fdd62" binding="FirstPanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6ae8d" class="javax.swing.JButton" binding="BeginButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-7223981"/>
+              <foreground color="-1"/>
+              <icon value="com/sun/java/swing/plaf/windows/icons/Computer.gif"/>
+              <text value="Begin Game"/>
+            </properties>
+          </component>
+          <component id="18883" class="javax.swing.JLabel" binding="introText">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Welcome to Battle Ship!"/>
+            </properties>
+          </component>
+          <vspacer id="15ea1">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="7b271" class="javax.swing.JLabel" binding="introText2">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Press the button below to start the game."/>
+            </properties>
+          </component>
+          <vspacer id="d9205">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c3301" class="javax.swing.JLabel" binding="author">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="By Aditya Gholba and Hamir Singh Shekhawat"/>
+            </properties>
+          </component>
+          <vspacer id="58dc0">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="a9364" binding="RightPanel" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-15576706"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="6f02f" binding="buttonPanel1" layout-manager="GridLayoutManager" row-count="9" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="3" row-span="10" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15576706"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1a1db" class="javax.swing.JButton" binding="b0Button1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="7b87a" class="javax.swing.JButton" binding="b1Button1">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="e29e9" class="javax.swing.JButton" binding="b2Button1">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="cea42" class="javax.swing.JButton" binding="b3Button1">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="df3ae" class="javax.swing.JButton" binding="b4Button1">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="aed9" class="javax.swing.JButton" binding="b5Button1">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="cc00e" class="javax.swing.JButton" binding="b6Button1">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="51eb8" class="javax.swing.JButton" binding="b7Button1">
+                <constraints>
+                  <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="b3f4" class="javax.swing.JButton" binding="b8Button1">
+                <constraints>
+                  <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="B8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="1"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="f59cc" class="javax.swing.JButton" binding="c0Button1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="fb562" class="javax.swing.JButton" binding="c1Button1">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="433ec" class="javax.swing.JButton" binding="c2Button1">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="d1d8c" class="javax.swing.JButton" binding="c3Button1">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="7b4db" class="javax.swing.JButton" binding="c4Button1">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="57ad5" class="javax.swing.JButton" binding="c5Button1">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="d429b" class="javax.swing.JButton" binding="c6Button1">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="d058" class="javax.swing.JButton" binding="c7Button1">
+                <constraints>
+                  <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="e9454" class="javax.swing.JButton" binding="c8Button1">
+                <constraints>
+                  <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="C8"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="2"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="43de8" class="javax.swing.JButton" binding="d0Button1">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="647cd" class="javax.swing.JButton" binding="d1Button1">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="4a6b7" class="javax.swing.JButton" binding="d2Button1">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="b2782" class="javax.swing.JButton" binding="d3Button1">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="96a8d" class="javax.swing.JButton" binding="d4Button1">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="a1fa4" class="javax.swing.JButton" binding="d5Button1">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="37953" class="javax.swing.JButton" binding="d6Button1">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="610d2" class="javax.swing.JButton" binding="d7Button1">
+                <constraints>
+                  <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="716e0" class="javax.swing.JButton" binding="d8Button1">
+                <constraints>
+                  <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="D8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="3"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="1e422" class="javax.swing.JButton" binding="e0Button1">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="f14f" class="javax.swing.JButton" binding="e1Button1">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="e810b" class="javax.swing.JButton" binding="e2Button1">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="75ad8" class="javax.swing.JButton" binding="e3Button1">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="3cf18" class="javax.swing.JButton" binding="e4Button1">
+                <constraints>
+                  <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="26cfd" class="javax.swing.JButton" binding="e5Button1">
+                <constraints>
+                  <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="246b7" class="javax.swing.JButton" binding="e6Button1">
+                <constraints>
+                  <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="fba0d" class="javax.swing.JButton" binding="e7Button1">
+                <constraints>
+                  <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="e8253" class="javax.swing.JButton" binding="e8Button1">
+                <constraints>
+                  <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="E8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="4"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="c5f47" class="javax.swing.JButton" binding="f0Button1">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="6c6dd" class="javax.swing.JButton" binding="f1Button1">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="169c0" class="javax.swing.JButton" binding="f2Button1">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="4dd2c" class="javax.swing.JButton" binding="f3Button1">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="f75d4" class="javax.swing.JButton" binding="f4Button1">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="e582d" class="javax.swing.JButton" binding="f5Button1">
+                <constraints>
+                  <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="66137" class="javax.swing.JButton" binding="f6Button2">
+                <constraints>
+                  <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="4a91" class="javax.swing.JButton" binding="f7Button1">
+                <constraints>
+                  <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="23621" class="javax.swing.JButton" binding="f8Button1">
+                <constraints>
+                  <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="F8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="5"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="f7db7" class="javax.swing.JButton" binding="g0Button1">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G0"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="ec68e" class="javax.swing.JButton" binding="g1Button1">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G1"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="5b6bf" class="javax.swing.JButton" binding="g2Button1">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G2"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="da59e" class="javax.swing.JButton" binding="g3Button1">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G3"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="a025e" class="javax.swing.JButton" binding="g4Button1">
+                <constraints>
+                  <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G4"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="66e27" class="javax.swing.JButton" binding="g5Button1">
+                <constraints>
+                  <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G5"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="41fa9" class="javax.swing.JButton" binding="g6Button1">
+                <constraints>
+                  <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G6"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="5f4f3" class="javax.swing.JButton" binding="g7Button1">
+                <constraints>
+                  <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G7"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="8fa14" class="javax.swing.JButton" binding="g8Button1">
+                <constraints>
+                  <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="G8"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="6"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="ec6d3" class="javax.swing.JButton" binding="h0Button1">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="2f752" class="javax.swing.JButton" binding="h1Button1">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="30a8f" class="javax.swing.JButton" binding="h2Button1">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="3203" class="javax.swing.JButton" binding="h3Button1">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="eb0d0" class="javax.swing.JButton" binding="h4Button1">
+                <constraints>
+                  <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="a531d" class="javax.swing.JButton" binding="h5Button1">
+                <constraints>
+                  <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="2ca3" class="javax.swing.JButton" binding="h6Button1">
+                <constraints>
+                  <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="f9cd7" class="javax.swing.JButton" binding="h7Button1">
+                <constraints>
+                  <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="f61c0" class="javax.swing.JButton" binding="h8Button1">
+                <constraints>
+                  <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="H8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="7"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="72743" class="javax.swing.JButton" binding="i0Button1">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I0"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="5eea3" class="javax.swing.JButton" binding="i1Button1">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="fcc26" class="javax.swing.JButton" binding="i2Button1">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="39bc2" class="javax.swing.JButton" binding="i3Button1">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="a9184" class="javax.swing.JButton" binding="i4Button1">
+                <constraints>
+                  <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="5ea6e" class="javax.swing.JButton" binding="i5Button1">
+                <constraints>
+                  <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="f8c36" class="javax.swing.JButton" binding="i6Button1">
+                <constraints>
+                  <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="d21b3" class="javax.swing.JButton" binding="i7Button1">
+                <constraints>
+                  <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="47a43" class="javax.swing.JButton" binding="i8Button1">
+                <constraints>
+                  <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="I8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="8"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+              <component id="cb145" class="javax.swing.JButton" binding="a0Button1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A0"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="0"/>
+                </clientProperties>
+              </component>
+              <component id="c3b2e" class="javax.swing.JButton" binding="a1Button1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A1"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="1"/>
+                </clientProperties>
+              </component>
+              <component id="b76dc" class="javax.swing.JButton" binding="a2Button1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A2"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="2"/>
+                </clientProperties>
+              </component>
+              <component id="f971b" class="javax.swing.JButton" binding="a3Button1">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A3"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="3"/>
+                </clientProperties>
+              </component>
+              <component id="3c4a4" class="javax.swing.JButton" binding="a4Button1">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A4"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="4"/>
+                </clientProperties>
+              </component>
+              <component id="c78dd" class="javax.swing.JButton" binding="a5Button1">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A5"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="5"/>
+                </clientProperties>
+              </component>
+              <component id="69c09" class="javax.swing.JButton" binding="a6Button1">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A6"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="6"/>
+                </clientProperties>
+              </component>
+              <component id="f1e14" class="javax.swing.JButton" binding="a7Button1">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A7"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="7"/>
+                </clientProperties>
+              </component>
+              <component id="b4b2b" class="javax.swing.JButton" binding="a8Button1">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="55"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-12828863"/>
+                  <text value="A8"/>
+                </properties>
+                <clientProperties>
+                  <i_co class="java.lang.Integer" value="0"/>
+                  <j_co class="java.lang.Integer" value="8"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+          <component id="d3ca2" class="javax.swing.JComboBox" binding="orientation">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Horizontal"/>
+                <item value="Vertical"/>
+              </model>
+            </properties>
+          </component>
+          <component id="17f2f" class="javax.swing.JLabel" binding="orientationText">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="Select Orientation"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <vspacer id="a1807">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a03f" class="javax.swing.JLabel" binding="SetShipText">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-4513024"/>
+              <text value="Enter the Starting coordinates of the Ships"/>
+            </properties>
+          </component>
+          <hspacer id="c9860">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="bf576">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="b5833" class="javax.swing.JLabel" binding="instructions1">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Note: Please choose coordinates"/>
+            </properties>
+          </component>
+          <component id="a7de4" class="javax.swing.JLabel" binding="instructions2">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="such that the ships do not intersect"/>
+            </properties>
+          </component>
+          <component id="8323c" class="javax.swing.JLabel" binding="instructions3">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="or the program will automatically"/>
+            </properties>
+          </component>
+          <component id="192b" class="javax.swing.JLabel" binding="instructions4">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="reassign their position"/>
+            </properties>
+          </component>
+          <component id="35b15" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-7223981"/>
+              <foreground color="-1"/>
+              <text value="Next"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <hspacer id="55a69">
+            <constraints>
+              <grid row="2" column="4" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="b3a2a">
+            <constraints>
+              <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="2154c" class="javax.swing.JLabel" binding="shipSize">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <text value="Ship Size 3"/>
+            </properties>
+          </component>
+          <vspacer id="f56ff">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
