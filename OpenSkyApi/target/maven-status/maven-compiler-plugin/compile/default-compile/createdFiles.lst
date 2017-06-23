@@ -1,0 +1,6 @@
+org/opensky/api/OpenSkyApi$REQUEST_TYPE.class
+org/opensky/model/OpenSkyStatesDeserializer.class
+org/opensky/model/OpenSkyStates.class
+org/opensky/api/OpenSkyApi$BasicAuthInterceptor.class
+org/opensky/api/OpenSkyApi.class
+org/opensky/model/StateVector.class

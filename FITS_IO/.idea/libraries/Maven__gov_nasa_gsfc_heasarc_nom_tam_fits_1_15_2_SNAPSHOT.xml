@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: gov.nasa.gsfc.heasarc:nom-tam-fits:1.15.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/gov/nasa/gsfc/heasarc/nom-tam-fits/1.15.2-SNAPSHOT/nom-tam-fits-1.15.2-20161218.220926-10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/gov/nasa/gsfc/heasarc/nom-tam-fits/1.15.2-SNAPSHOT/nom-tam-fits-1.15.2-20161218.220926-10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/gov/nasa/gsfc/heasarc/nom-tam-fits/1.15.2-SNAPSHOT/nom-tam-fits-1.15.2-20161218.220926-10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
